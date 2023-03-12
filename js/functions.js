@@ -1314,7 +1314,7 @@ window.scwEvents = window.scwEvents || {};
 			SEMICOLON.widget.accordions();
 			SEMICOLON.widget.counter();
 			SEMICOLON.widget.countdown();
-			SEMICOLON.widget.gmap();
+			//SEMICOLON.widget.gmap();
 			SEMICOLON.widget.roundedSkill();
 			SEMICOLON.widget.progress();
 			SEMICOLON.widget.twitterFeed();
