@@ -82,6 +82,25 @@
 			width: 200px;
 			margin: 30px 0px 0px 0px;
 		}
+
+		
+
+		@media (max-width: 989px) {
+			.teste {
+				background: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.5)), url('images/wallpaper8.jpg');
+				background-position: center !important; 
+				background-attachment: fixed;
+			}	
+		}
+
+		@media (min-width: 990px) {
+			.teste {
+				background: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.5)), url('images/wallpaper8.jpg') 50% 10% no-repeat; 
+				background-size: cover !important; 
+				background-attachment: fixed;
+			}
+		}
+
 	</style>
 
 </head>
@@ -138,8 +157,9 @@
 		============================================= -->
 		<section id="slider" class="slider-element min-vh-100 include-header">
 
-			<div class="slider-inner" style="background: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.5)), url('images/wallpaper8.jpg') 50% 10% no-repeat; background-size: cover !important; background-attachment: fixed" data-top-top="background-position: 50% 10%;" data-top-bottom="background-position: 50% 90%;">
-
+			<!-- <div class="slider-inner teste" style="background: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.5)), url('images/wallpaper8.jpg') 50% 10% no-repeat; background-size: cover !important; background-attachment: fixed" data-top-top="background-position: 50% 10%;" data-top-bottom="background-position: 50% 90%;"> -->
+			<div class="slider-inner teste" data-top-top="background-position: 50% 10%;" data-top-bottom="background-position: 50% 90%;">
+				
 				<div class="container dark">
 					<div class="vertical-middle ignore-header">
 						<div class="d-flex">
@@ -378,7 +398,7 @@
 									<div class="clear topmargin"></div>
 
 									<strong>Phone:</strong> +1 (647) 781-8697<br>
-									<strong>Email:</strong> ronildotoronto@gmail.com
+									<strong>Email:</strong> ronildotoronto	gmail.com
 								</div>
 							</div>
 						</div>
