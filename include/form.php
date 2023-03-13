@@ -58,6 +58,14 @@ $mail = new PHPMailer();
 
 /* Add your SMTP Codes after this Line */
 
+$mail->IsSMTP();
+$mail->Host = "mail.yourdomain.com";
+$mail->SMTPDebug = 0;
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = "ssl";
+$mail->Port = 26;
+$mail->Username = "yourname@yourdomain.com";
+$mail->Password = "yourpassword";
 
 // End of SMTP
 
